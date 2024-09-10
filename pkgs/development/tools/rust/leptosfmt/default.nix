@@ -10,8 +10,8 @@ rustPlatform.buildRustPackage rec {
   src = fetchFromGitHub {
     owner = "bram209";
     repo = "leptosfmt";
-    rev = "c71652c1209367846864b3c2d7dc52fdcf37bd0e";
-    hash = "sha256-FQKGmcmF3scJ8mQM1Mkokp5JnCHb4GR7BWJW379rSVc=";
+    rev = "79982e1b75c2470b4cb2789c5c7809fd8b311095";
+    hash = "sha256-0bLZQEUPcxnrocob5wI9p9TDKHg0RrjkahncCGcMhUE=";
     fetchSubmodules = true;
   };
 
